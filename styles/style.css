@@ -140,7 +140,7 @@
 /* 3rd section */
 
 .location-content {
-    height: 490px;
+    height: 640px;
     border-radius: 16px;
     text-align: center;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -341,4 +341,68 @@
 }
 .awesome{
     margin: 120px auto;
+}
+
+/* 7th section */
+
+.newsletter{
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 640px;
+}
+
+.mail {
+    padding: 80px 585px 40px 585px;
+}
+
+.mail-description {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin: 40px auto;
+}
+
+.news {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.btn3 {
+    margin-left: -5px;
+    border: none;
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+input {
+    border: none;
+    width: 438px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    background: #FFF;
+
 }
