@@ -446,23 +446,25 @@ input {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    line-height: 40px; 
-    /* display: inline-block; */
+    line-height: 40px;
+
+}
+.phone,
+.website {
+margin-right: 10px;
 }
 
-/* .phone,
-.website {
-    width: 24px;
-height: 24px;
-flex-shrink: 0;
-margin: 0 0 -20 0;
-} */
 .foot-part2-right{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.foot-part3-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .foot-middle{
     width: 1320px;
@@ -492,4 +494,12 @@ margin: 0 0 -20 0;
     font-size: 24px;
     font-weight: 500;
     padding: 50px 0;
+}
+.un-subscribe{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    background: #070211;
+    border: 0;
 }
