@@ -290,7 +290,7 @@
 
 /* 6th section */
 
-.function{
+.function {
     display: flex;
     margin: 64px auto 0 auto;
     background-image: url('../image/resources/Rectangle\ 1.png'), url('../image/resources/Rectangle\ 2.png');
@@ -339,17 +339,19 @@
     justify-content: center;
     gap: 24px;
 }
-.awesome{
+
+.awesome {
     margin: 120px auto;
 }
 
 /* 7th section */
 
-.newsletter{
+.newsletter {
     text-align: center;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     height: 640px;
+    margin: 120px auto;
 }
 
 .mail {
@@ -405,4 +407,89 @@ input {
     font-weight: 400;
     background: #FFF;
 
+}
+
+/* main section style end here */
+
+/* footer section style start from here */
+
+.foot {
+    background: #070211;
+    height: 630px;
+
+}
+
+.foot-part1-left {
+    display: flex;
+    width: 1320px;
+    margin: 0 auto;
+    gap: 560px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 120px 0 50px 0;
+}
+
+.foot-location{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+    width: 375px;
+}
+
+.number, .link{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; 
+    /* display: inline-block; */
+}
+
+/* .phone,
+.website {
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+margin: 0 0 -20 0;
+} */
+.foot-part2-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.foot-middle{
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: #070211;
+    gap: 24px;
+    padding: 48px 0;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+
+}
+
+.foot-last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.rights{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 50px 0;
 }
