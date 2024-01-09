@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
-.container{
+
+.container {
     width: 1320px;
     max-width: 1600px;
     margin: 0 auto;
 }
-.banner{
+
+.banner {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/resources/Banner\ Image.png');
     width: 1320px;
     height: 600px;
@@ -18,10 +20,11 @@
     margin: 50px auto;
 }
 
-.banner-text{
+.banner-text {
     padding-top: 170px;
 }
-.banner-title{
+
+.banner-title {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -30,7 +33,7 @@
     margin-bottom: 20px;
 }
 
-.banner-party{
+.banner-party {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -45,7 +48,7 @@
 
 /* 1st section */
 
-.holiday-title{
+.holiday-title {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -54,7 +57,7 @@
     margin-bottom: 30px;
 }
 
-.holiday-deals{
+.holiday-deals {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -64,7 +67,7 @@
     letter-spacing: 1px;
 }
 
-.Categories{
+.Categories {
     color: #070211;
     text-align: center;
     font-family: Inter;
@@ -72,14 +75,14 @@
     font-weight: 700;
 }
 
-.holiday-image{
+.holiday-image {
     width: 802.9px;
     height: 500px;
     margin: 48px auto 0 auto;
     display: block;
 }
 
-#off{
+#off {
     padding: 40px 0;
 }
 
@@ -136,18 +139,18 @@
 
 /* 3rd section */
 
-.location-content{
-    height: 500px;
+.location-content {
+    height: 490px;
     border-radius: 16px;
     text-align: center;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
-.location{
+.location {
     padding: 100px 385px 0px 385px;
 }
 
-.town{
+.town {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -156,7 +159,7 @@
     text-transform: capitalize;
 }
 
-.exact{
+.exact {
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -165,6 +168,7 @@
     line-height: 56px;
     text-transform: capitalize;
 }
+
 .btn2 {
     display: inline-flex;
     padding: 16px 32px;
@@ -180,4 +184,161 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 48px;
+}
+
+/* 4th section */
+
+.offer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 120px auto;
+}
+
+.offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.come {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.bonus-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 392px;
+}
+
+.bonus-description2 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    margin-bottom: 43px;
+}
+
+.num {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.round {
+    padding: 49.8px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+/* 5th section */
+
+.holi-day {
+    color: #F00;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.what-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.what-description {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 26px;
+}
+
+.what-description2 {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+    width: 900px;
+    margin: 0 auto;
+}
+
+.what {
+    text-align: center;
+}
+
+/* 6th section */
+
+.function{
+    display: flex;
+    margin: 64px auto 0 auto;
+    background-image: url('../image/resources/Rectangle\ 1.png'), url('../image/resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: right top, bottom;
+    width: 1320px;
+}
+
+.gift-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gift-awesome {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.gift-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    width: 896px;
+    margin-bottom: 48px;
+}
+
+.image3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.image6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.awesome{
+    margin: 120px auto;
 }
